@@ -1,0 +1,18 @@
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Model checkpoints and datasets
+*.pth
+*.pt
+dataset/
+hymenoptera_data/
+
+# Training and TensorBoard output
+runs/
+logs/
+**/events.out.tfevents.*
+
+# Local test artifacts
+test.png
+
